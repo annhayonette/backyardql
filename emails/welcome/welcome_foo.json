@@ -1,0 +1,38 @@
+{
+	    "personalizations": [{
+	        "to": [
+	            {
+	                "email": "cristian.huentecura@unholster.com",
+	                "name": "Cristian Huentecura"
+	            }
+	        ],
+	        "cc": [
+	            {
+	                "email": "andres@unholster.com",
+	                "name": "Andrés Villavicencio"
+	            }
+	        ],
+	        "bcc": [
+	            {
+	                "email": "sebastian@unholster.com",
+	                "name": "Sebastián Acuña"
+	            }
+	        ],
+	        "substitutions": {
+	            "{{name}}": "Guillermo",
+	            "{{welcome_title}}": "Bienvenido",
+	            "{{welcome_lower}}": "bienvenido",
+	            "{{buddy_name}}": "Constanza Escobar",
+	            "{{it_name}}": "Cristian Huentecura",
+	            "{{manager_name}}": "Andres Villavicencio",
+		    "{{manager_title}}": "Director",
+		    "{{manager_phone}}": "+56 9 8248 4191",
+	            "{{starting_on}}": "lunes 18 de Diciembre, a las 10:00"
+	        }
+	    }],
+	    "from": {
+	        "email": "andres@unholster.com",
+	        "name": "Andres Villavicencio "
+	    },
+	    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+	}

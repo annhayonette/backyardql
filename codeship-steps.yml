@@ -1,0 +1,6 @@
+- service: hugo
+  command: sh -c 'npm install; npm run backyard'
+
+- service: awsdeployment
+  command: aws s3 cp --recursive /deploy/hugo/public s3://backyard.unholster.com
+  tag: master

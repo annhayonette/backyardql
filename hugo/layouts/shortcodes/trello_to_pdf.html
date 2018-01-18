@@ -1,0 +1,132 @@
+<section class="report">
+
+    <link rel="stylesheet" href="/css/pdf.css">
+    <link rel="stylesheet" href="/css/printer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+
+    <div id="pdf-container">
+      <div id="trello-container">
+
+        <div class="col-md-offset-2 col-sm-8">
+          <h1>Reportes Trello</h1>
+          <label>Titulo del reporte</label>
+          <input id="trello-report-titulo" type="text" placeholder="Titulo" />
+          <label>Boards'JSON</label>
+          <textarea id="trello-data"></textarea>
+          <button type="button" id="trello-render">GO!</button>
+        </div>
+
+        <script type="text/template" id="trello-template">
+
+            <div class="portada">
+              <div class="title">
+                <h1 id="trello-report-title">+:= report_title :+</h1>
+                <img src="{{"images/Unholster-logo.png" | relURL}}" />
+                <p id="report_date">+:= report_date :+</p>
+              </div>
+            </div>
+
+            <div class="row">
+            +: lists.forEach(list => { :+
+              +: if (cards.filter(card => card.idList === list.id).length > 0) { :+
+
+                +: cards.filter(card => card.idList === list.id).forEach(card => { :+
+                  <div class="col-md-offset-1 col-sm-10">
+                    <div class="panel panel-default">
+
+                      <div class="panel-heading">
+                        <h3 class="panel-title">
+                          +:= card.name :+
+                        </h3>
+                      </div>
+                      <div class="panel-body">
+
+                        <ul class="list-inline">
+                          +: card.labels.forEach(label => { :+
+                            <li>
+                              <span class="label label-default label-+:= label.color :+">
+                                +:= label.name :+
+                              </span>
+                            </li>
+                          +: }) /* end for labels */ :+
+                        </ul>
+
+                        +: if (card.labels.length > 0 && card.desc.length > 0 && card.due.length > 0) { :+
+                            <hr />
+                        +: } :+
+
+                        +: if (card.desc) { :+
+                          +:- _converter.makeHtml(card.desc) :+
+                        +: } :+
+
+                        +: if(card.due!==null){ :+
+                          <p id="limit_date">
+                            Fecha Entrega: +:= new Date(card.due).toLocaleDateString('es-CL') :+
+                          </p>
+                        +: } :+
+
+                        +: checklists.filter(checklist => checklist.idCard === card.id).forEach(checklist => { :+
+                          <hr />
+                          <h5>+:= checklist.name :+</h5>
+
+                          <ul class="checklist">
+                            +: checklist.checkItems.forEach(item => { :+
+                            <li>
+                              <span class="glyphicon glyphicon-+:= (item.state === 'incomplete' ? 'unchecked' : 'check') :+"></span>
+                              +:- _converter.makeHtml(item.name) :+
+                            </li>
+                            +: }) /* end for checkItems */ :+
+                          </ul>
+
+                        +: }) /* end for checklists */ :+
+
+                        +: actions.filter(action => action.type === 'commentCard' && action.data.card.id === card.id).forEach(action => { :+
+                          <hr />
+                          <div class="comment-box">
+                            <label class="comment_author"><b>+:= action.memberCreator.fullName:+</b> Comentó:</label>
+                            <div class="comment_text">+:- _converter.makeHtml(action.data.text) :+</div>
+                          </div>
+                        +: }) :+
+                      </div>+: /* end panel-body */ :+
+                    </div>+: /* end panel-default */ :+
+                  </div>+: /* col-md-offset-1 col-sm-10 */ :+
+
+                +: }) /* end for cards */ :+
+            +: } /* end if */ :+
+            +: }) /* end for lists */ :+
+            </div>+: /* end row */ :+
+          </div>
+        </script>
+
+      </div>
+    </div>
+
+    <script src="{{"js/ejs.min.js" | relURL}}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.7.6/showdown.min.js"></script>
+    <script>
+      function formatDate(date) {
+        var monthNames = ["Enero","Febrero","Marzo","Abril", "Mayo", "Junio",
+          "Julio","Agosto", "Septembre", "Octubre","Noviembre", "Diciembre"];
+        var days = ["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"];
+
+        var dayName = days[date.getDay()];
+        var day = date.getDate();
+        var monthIndex = date.getMonth();
+        var year = date.getFullYear();
+
+        return dayName + ' ' + day + ' ' + monthNames[monthIndex] + ' ' + year;
+      }
+
+      (() => {
+        const render = () => {
+          let template = ejs.compile(document.getElementById('trello-template').innerHTML, {open: "+:", close:":+"});
+
+          let data = JSON.parse(document.getElementById('trello-data').value);
+          let title = document.getElementById('trello-report-titulo').value;
+          document.getElementById('trello-container').innerHTML = template(Object.assign(data, {report_title:title, report_date: formatDate( new Date() ), _converter: new showdown.Converter({simpleLineBreaks:true}) } ) );
+        };
+        document.getElementById('trello-render').addEventListener('click', render);
+      }) ();
+    </script>
+</section>
+{{ .Inner }}

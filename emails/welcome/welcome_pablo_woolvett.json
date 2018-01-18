@@ -1,0 +1,48 @@
+{
+    "personalizations": [{
+        "to": [
+            {
+                "email": "pablowoolvett@gmail.com",
+                "name": "Pablo Woolvett"
+            }
+        ],
+        "cc": [
+            {
+                "email": "andres@unholster.com",
+                "name": "Andrés Villavicencio"
+            },
+            {
+                "email": "jaime.bauza@unholster.com",
+                "name": "Jaime Bauzá"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "sebastian@unholster.com",
+                "name": "Sebastián Acuña"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Pablo",
+            "{{welcome_title}}": "Bienvenido",
+            "{{welcome_lower}}": "bienvenido",
+            "{{buddy_name}}": "Catalina Espinosa",
+            "{{it_name}}": "Andrés Villavicencio",
+            "{{manager_name}}": "Sebastián Acuña",
+            "{{starting_on}}": "lunes 16 de Octubre, a las 10:00"
+        }
+    }],
+    "from": {
+        "email": "sebastian@unholster.com",
+        "name": "Sebastián Acuña Keller"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

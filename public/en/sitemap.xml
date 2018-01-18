@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost:1313/home/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/quienes_somos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/que_ofrecemos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/proyectos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/ops/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/herramientas/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/_header/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/ops/swarm/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/que_ofrecemos/bicicletero/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/que_ofrecemos/cafeteria/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/home/carta_bienvenida/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/classes/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/classes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/classes/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/quienes_somos/cumpleanos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/que_ofrecemos/equipamiento/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/home/foto_equipo/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/horario/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/imprevistos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/internet/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/licencias/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/quienes_somos/logros_exitos_hitos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/quienes_somos/mision_vision_valores/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/quienes_somos/nuestra_historia/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/que_ofrecemos/recreativos/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/que_ofrecemos/salas_de_reunion/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/seguridad/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/herramientas/trello/</loc>
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/nuestras_pautas/vacaciones/</loc>
+  </url>
+  
+</urlset>

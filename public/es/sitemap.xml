@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>//localhost:1313/es/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/es/classes/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/classes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/classes/"
+                />
+  </url>
+  
+  <url>
+    <loc>//localhost:1313/es/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="//localhost:1313/es/"
+                />
+  </url>
+  
+</urlset>

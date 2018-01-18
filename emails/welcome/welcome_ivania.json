@@ -1,0 +1,49 @@
+{
+    "personalizations": [{
+    	"to": [
+            {
+                "email": "ivania.donoso@gmail.com",
+                "name": "Ivania Donoso Guzmán"
+            }
+    	],
+        "cc": [
+            {
+                "email": "boris.quiroz@unholster.com",
+                "name": "Boris Quiroz"
+            },
+            {
+                "email": "mauricio.farah@unholster.com",
+                "name": "Mauricio Farah"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "sebastian@unholster.com",
+                "name": "Sebastián Acuña"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Ivania",
+            "{{welcome_title}}": "Bievenida",
+            "{{welcome_lower}}": "bienvenida",
+            "{{buddy_name}}": "Mauricio Farah",
+            "{{it_name}}": "Boris Quiroz",
+            "{{manager_name}}": "Sebastián Acuña",
+            "{{starting_on}}": "lunes 25 de Septiembre, a las 10:00",
+            "{{special_activity}}": "A las 13:00 iremos en grupo a almorzar para empezar a conocernos y darte la bienvenida :-)"
+        }
+    }],
+    "from": {
+        "email": "sebastian@unholster.com",
+        "name": "Sebastián Acuña Keller"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

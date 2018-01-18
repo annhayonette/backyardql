@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Qué Ofrecemos on Hugo React strting page</title>
+    <link>//localhost:1313/que_ofrecemos/</link>
+    <description>Recent content in Qué Ofrecemos on Hugo React strting page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente</copyright>
+    
+	<atom:link href="//localhost:1313/que_ofrecemos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bicicletero</title>
+      <link>//localhost:1313/que_ofrecemos/bicicletero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/que_ofrecemos/bicicletero/</guid>
+      <description>Los ciclistas son bienvenidos en Unholster
+ En el patio trasero hay un colgador de bicicletas que puede ser utilizado por todos en Unholster.
+No existe el concepto de puesto reservado en el bicicletero.
+El acceso al bicicletero es vía la entrada en Av. Sucre, siguiendo por el patio delantero, pasando por la puerta a un costado poniente de la casa hasta llegar al patio trasero.
+Ten en cuenta&amp;hellip; Eres bienvenido a utilizar un candado, pero en 7 años de uso de la casa nunca ha habido un caso de ingreso a robar bicicletas ni otros implementos del patio durante las horas de oficina.</description>
+    </item>
+    
+    <item>
+      <title>Cafetería</title>
+      <link>//localhost:1313/que_ofrecemos/cafeteria/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/que_ofrecemos/cafeteria/</guid>
+      <description>Una mente bien alimentada funciona mejor
+ En el primer y segundo piso hay dos áreas de cafetería a disposición de todos los Unholsterianos. Cada área cuenta con los siguientes implementos:
+Cafetera Nespresso Eres libre de hacerte los cafés que quieras. Cuando lo hagas debes fijarte en lo siguiente:
+ Las cápsulas se reponen diariamente, si se acaban durante el día avisa en #mantenimiento Después de hacerte tu café, revisa si está acabando el agua.</description>
+    </item>
+    
+    <item>
+      <title>Equipamiento</title>
+      <link>//localhost:1313/que_ofrecemos/equipamiento/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/que_ofrecemos/equipamiento/</guid>
+      <description>En Unholster, ponemos a disposición de cada miembro de nuestro equipo todas las herramientas que necesiten para realizar su mejor trabajo.
+ Todo desarrollador que trabaje en nuestras oficinas recibirá:
+ Un laptop Una silla y un escritorio Un teclado, mouse y monitor Tarjeta de acceso a la oficina, llaves y/o controles remoto  Entendemos que todos estos implementos tendrán uso, desgaste e incluso pueden llegar a sufrir algún percance.</description>
+    </item>
+    
+    <item>
+      <title>Recreativos</title>
+      <link>//localhost:1313/que_ofrecemos/recreativos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/que_ofrecemos/recreativos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salas de reunión</title>
+      <link>//localhost:1313/que_ofrecemos/salas_de_reunion/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/que_ofrecemos/salas_de_reunion/</guid>
+      <description>Las salas de reunión en Unholster se usan en varios contextos y muchas veces son nuestra cara más visible a nuestros clientes y potenciales clientes
+ Las salas de reunión son de libre uso para trabajar en equipo. Hay actividades que siempre tomarán prioridad y en que te podrían pedir desocupar la sala:
+ Reuniones con clientes Entrevistas a candidatos Reuniones de socios Reuniones programadas de equipo  Este tipo de actividades ocurre con mayor frecuencia en la sala del segundo piso.</description>
+    </item>
+    
+  </channel>
+</rss>

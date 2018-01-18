@@ -1,0 +1,13 @@
+baseURL = "https://backyard.unholster.com/"
+languageCode = "en-us"
+title = "Unholster"
+theme = "docdock"
+
+[params]
+    sidebar_logo_url = "img/Unholster-logo-white-128.png"
+    brand = "Backyard"
+    subtitle = "Backyard"
+    logout_url = "https://unholster.auth0.com/v2/logout?returnTo=http://backyard.unholster.com"
+    noSearch = true
+    noHomeIcon = true
+    themeStyle = "theme"

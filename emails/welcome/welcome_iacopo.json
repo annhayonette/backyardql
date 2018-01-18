@@ -1,0 +1,48 @@
+{
+    "personalizations": [{
+        "to": [
+            {
+                "email": "igarizio@uc.cl",
+                "name": "Iacopo Garizio"
+            }
+        ],
+        "cc": [
+            {
+                "email": "andres@unholster.com",
+                "name": "Andrés Villavicencio"
+            },
+            {
+                "email": "jaime.bauza@unholster.com",
+                "name": "Jaime Bauzá"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "sebastian@unholster.com",
+                "name": "Sebastián Acuña"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Iacopo",
+            "{{welcome_title}}": "Bienvenido",
+            "{{welcome_lower}}": "bienvenido",
+            "{{buddy_name}}": "Jaime Bauzá",
+            "{{it_name}}": "Andrés Villavicencio",
+            "{{manager_name}}": "Andrés Villavicencio",
+            "{{starting_on}}": "martes 14 de noviembre, a las 10:00"
+        }
+    }],
+    "from": {
+        "email": "sebastian@unholster.com",
+        "name": "Sebastián Acuña Keller"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

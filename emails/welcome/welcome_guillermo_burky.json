@@ -1,0 +1,50 @@
+{
+    "personalizations": [{
+        "to": [
+            {
+                "email": "gdburky@uc.cl",
+                "name": "Guillermo Burky"
+            }
+        ],
+        "cc": [
+            {
+                "email": "andres@unholster.com",
+                "name": "Andrés Villavicencio"
+            },
+            {
+                "email": "constanza.escobar@unholster.com",
+                "name": "Constanza Escobar"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "sebastian@unholster.com",
+                "name": "Sebastián Acuña"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Guillermo",
+            "{{welcome_title}}": "Bienvenido",
+            "{{welcome_lower}}": "bienvenido",
+            "{{buddy_name}}": "Constanza Escobar",
+            "{{it_name}}": "Cristian Huentecura",
+            "{{manager_name}}": "Andres Villavicencio",
+            "{{manager_title}}": "Director",
+            "{{manger_phone}}": "+56 9 8248 4191",
+            "{{starting_on}}": "Lunes 18 de Diciembre, a las 10:00"
+        }
+    }],
+    "from": {
+        "email": "andres@unholster.com",
+        "name": "Andres Villavicencio"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

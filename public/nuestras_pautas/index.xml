@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nuestras Pautas on Hugo React strting page</title>
+    <link>//localhost:1313/nuestras_pautas/</link>
+    <description>Recent content in Nuestras Pautas on Hugo React strting page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente</copyright>
+    
+	<atom:link href="//localhost:1313/nuestras_pautas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Horario</title>
+      <link>//localhost:1313/nuestras_pautas/horario/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/nuestras_pautas/horario/</guid>
+      <description>Funcionamos con un horario que combina flexibilidad pero que esperamos sea respetado 100% en los límites definidos.
+ Contamos con una única oficina física que abre solo los días hábiles a las 9:00 y cierra a las 19:00. Cualquier excepción programada será avisada oportunamente.
+La hora de ingreso es hasta las 10:00 y la hora de salida es a partir de las 18:00.
+Si, excepcionalmente, necesitas ingresar o salir a una hora fuera de este rango, por favor infórmalo con tiempo a tu jefe y consigue su aprobación explícita.</description>
+    </item>
+    
+    <item>
+      <title>Imprevistos</title>
+      <link>//localhost:1313/nuestras_pautas/imprevistos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/nuestras_pautas/imprevistos/</guid>
+      <description>Qué hacer si estás atrasado o necesitas ausentarte de forma imprevista.
+ En general, cualquier ausencia debiese enmarcarse dentro de las políticas de:
+ Vacaciones Licencias médicas Ausencias administrativas  Sin embargo, en Unholster entendemos que siempre pueden ocurrir imprevistos, urgencias y causas de fuerza mayor.
+Cuando vengas atrasado al trabajo o necesites ausentarte una parte del día o el día entero por alguna urgencia que no pudiste prevenir, te pedimos que le informes a tu jefe directamente, idealmente llamándolo a su celular.</description>
+    </item>
+    
+    <item>
+      <title>Internet y teléfonos</title>
+      <link>//localhost:1313/nuestras_pautas/internet/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/nuestras_pautas/internet/</guid>
+      <description>Sitios y contenidos permitidos Los únicos sitios prohibidos en Unholster son aquellos relacionados con software, libros u otros contenidos pirateados, sitios de pornografía o relacionados con cualquier actividad ilegal. Acceder a este tipo de sitios desde la oficina está estrictamente prohibido y puede ser causal de despido. Nos tomamos muy en serio el evitar a toda costa vulnerar derechos de propiedad intelectual de terceros intencionada o no intencionadamente.
+Si tienes alguna duda, consulta a tu jefe.</description>
+    </item>
+    
+    <item>
+      <title>Licencias médicas</title>
+      <link>//localhost:1313/nuestras_pautas/licencias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/nuestras_pautas/licencias/</guid>
+      <description>A todos nos toca enfermarnos de vez en cuando, nuestro foco es que volvamos a estar en salud plena lo antes posible
+ Cuando sientas mal de salud (por la razón que sea) o te accidentes te pedimos que sigas un protocolo único, y que es: Ir al médico y pedir una licencia si es que corresponde.
+No hay interpretaciones ni puntos intermedios en como esperamos que manejes estas situaciones, pero si tienes cualquier duda consulta siempre con tu jefe.</description>
+    </item>
+    
+    <item>
+      <title>Seguridad</title>
+      <link>//localhost:1313/nuestras_pautas/seguridad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/nuestras_pautas/seguridad/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vacaciones</title>
+      <link>//localhost:1313/nuestras_pautas/vacaciones/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/nuestras_pautas/vacaciones/</guid>
+      <description>La política de vacaciones en Unholster es extremadamente sencilla y se remite a la legislación vigente en Chile.
+ Por cada año que trabajes con nosotros acumulas 15 días de vacaciones. Para hacer uso de ellos debes enviar un correo a tu jefe directo indicando el número de días que estás solicitando y las fechas en que te gustaría usar esos días.
+Cada solicitud se evaluará individualmente, típicamente revisando que el siguiente tipo de condiciones NO ocurran:</description>
+    </item>
+    
+  </channel>
+</rss>

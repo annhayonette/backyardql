@@ -1,0 +1,8 @@
+*.aes
+node_modules
+env.decrypted
+.env
+hugo/public
+hugo/content/proyectos/example.md
+hugo/static/js/example.jsx
+hugo/layouts/shortcodes/example.html

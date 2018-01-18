@@ -1,0 +1,46 @@
+{
+    "personalizations": [{
+        "to": [
+            {
+                "email": "belisariops@gmail.com",
+                "name": "Belisario Panay"
+            }
+        ],
+        "cc": [
+            {
+                "email": "mauricio.bustamante@unholster.com",
+                "name": "Mauricio Bustamante"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "andres@unholster.com",
+                "name": "Andrés Villavicencio"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Belisario",
+            "{{welcome_title}}": "Bienvenido",
+            "{{welcome_lower}}": "bienvenido",
+            "{{buddy_name}}": "Mauricio Bustamante",
+            "{{it_name}}": "Andrés Villavicencio",
+            "{{manager_name}}": "Andrés Villavicencio",
+            "{{manager_title}}": "Director",
+            "{{manager_phone}}": "+56 9 8248 4191",
+            "{{starting_on}}": "Lunes 15 de Enero, a las 10:00"
+        }
+    }],
+    "from": {
+        "email": "andres@unholster.com",
+        "name": "Andres Villavicencio"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

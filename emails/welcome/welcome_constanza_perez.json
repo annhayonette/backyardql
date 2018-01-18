@@ -1,0 +1,50 @@
+{
+    "personalizations": [{
+        "to": [
+            {
+                "email": "cperezadasme@gmail.com",
+                "name": "Constanza Perez"
+            }
+        ],
+        "cc": [
+            {
+                "email": "andres@unholster.com",
+                "name": "Andrés Villavicencio"
+            },
+            {
+                "email": "saul.hormazabal@unholster.com",
+                "name": "Saul Hormazabal"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "sebastian@unholster.com",
+                "name": "Sebastián Acuña"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Constanza",
+            "{{welcome_title}}": "Bienvenida",
+            "{{welcome_lower}}": "bienvenida",
+            "{{buddy_name}}": "Saul Hormazabal",
+            "{{it_name}}": "Cristian Huentecura",
+            "{{manager_name}}": "Andres Villavicencio",
+            "{{manager_title}}": "Director",
+            "{{manger_phone}}": "+56 9 8248 4191",
+            "{{starting_on}}": "Miercoles 20 de Diciembre, a las 10:00"
+        }
+    }],
+    "from": {
+        "email": "andres@unholster.com",
+        "name": "Andres Villavicencio"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

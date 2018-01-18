@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quienes Somos on Hugo React strting page</title>
+    <link>//localhost:1313/quienes_somos/</link>
+    <description>Recent content in Quienes Somos on Hugo React strting page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente</copyright>
+    
+	<atom:link href="//localhost:1313/quienes_somos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Cumpleaños</title>
+      <link>//localhost:1313/quienes_somos/cumpleanos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/quienes_somos/cumpleanos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logros, Casos de Éxito e Hitos</title>
+      <link>//localhost:1313/quienes_somos/logros_exitos_hitos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/quienes_somos/logros_exitos_hitos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Misión, Visión y Valores</title>
+      <link>//localhost:1313/quienes_somos/mision_vision_valores/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/quienes_somos/mision_vision_valores/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuestra Historia</title>
+      <link>//localhost:1313/quienes_somos/nuestra_historia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/quienes_somos/nuestra_historia/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

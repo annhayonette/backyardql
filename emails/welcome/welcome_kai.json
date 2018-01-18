@@ -1,0 +1,48 @@
+{
+    "personalizations": [{
+        "to": [
+            {
+                "email": "k.klingenberg@gmail.com",
+                "name": "Kai Klingenberg"
+            }
+        ],
+        "cc": [
+            {
+                "email": "boris.quiroz@unholster.com",
+                "name": "Boris Quiroz"
+            },
+            {
+                "email": "jaime.bauza@unholster.com",
+                "name": "Jaime Bauzá"
+            },
+            {
+                "email": "victor@unholster.com",
+                "name": "Víctor Quilaqueo"
+            },
+            {
+                "email": "maria.irene.delgado@unholster.com",
+                "name": "María Irene Delgado"
+            }
+        ],
+        "bcc": [
+            {
+                "email": "sebastian@unholster.com",
+                "name": "Sebastián Acuña"
+            }
+        ],
+        "substitutions": {
+            "{{name}}": "Kai",
+            "{{welcome_title}}": "Bienvenido",
+            "{{welcome_lower}}": "bienvenido",
+            "{{buddy_name}}": "Jaime Bauzá",
+            "{{it_name}}": "Boris Quiroz",
+            "{{manager_name}}": "Sebastián Acuña",
+            "{{starting_on}}": "miércoles 4 de Octubre, a las 10:00"
+        }
+    }],
+    "from": {
+        "email": "sebastian@unholster.com",
+        "name": "Sebastián Acuña Keller"
+    },
+    "template_id": "9528eddc-fc75-462d-9c68-3bed278613da"
+}

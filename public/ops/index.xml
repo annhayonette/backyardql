@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Operaciones on Hugo React strting page</title>
+    <link>//localhost:1313/ops/</link>
+    <description>Recent content in Operaciones on Hugo React strting page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Apache License v2 - Copyright (c) 2016 David Pordomingo de la Fuente</copyright>
+    
+	<atom:link href="//localhost:1313/ops/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/ops/swarm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/ops/swarm/</guid>
+      <description>La gestión de infraestructura de procesamiento en Unholster está basada en Docker Swarm + múltiples servicios AWS. Aquí se describe como está configurado y organizado nuestro Swarm.
+ Configuración y gestión de Swarm Nuestro cluster está configurado usando un CloudFormation template provisto y mantenido por Docker https://docs.docker.com/docker-for-aws/ usando la edición Community estable.
+Template URL: https://editions-us-east-1.s3.amazonaws.com/aws/stable/Docker-no-vpc.tmpl
+Algunos parámetros relevantes:
+ Llave SSH: unholster-devops Daily resource cleanup: enabled Cloudwatch for logging: yes EFS prerequisites for CloudStor: yes  Portainer Para la gestión del cluster Swarm usamos Portainer, una UI web para Swarm.</description>
+    </item>
+    
+  </channel>
+</rss>
